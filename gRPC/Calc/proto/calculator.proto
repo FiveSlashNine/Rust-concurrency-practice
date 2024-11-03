@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package calculator;
+
+service Calculator {
+  rpc CalcResult (CalcRequest) returns (CalcResponse);
+}
+
+message CalcRequest {
+  double first_num = 1;
+  double second_num = 2;
+  string operator = 3;
+}
+
+message CalcResponse {
+  string result = 1;
+}

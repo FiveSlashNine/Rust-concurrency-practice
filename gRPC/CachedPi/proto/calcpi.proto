@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package calcpi;
+
+service CalcPi {
+  rpc CalcPi (CalcPiRequest) returns (CalcPiResponse);
+}
+
+message CalcPiRequest {
+  string num = 1;
+}
+
+message CalcPiResponse {
+  string result = 1;
+}

@@ -6,10 +6,9 @@ This repository contains a collection of small projects written in Rust, designe
 ### 1. Sieve
 
 The Sieve project implements the Sieve of Eratosthenes algorithm, an efficient method for finding all prime numbers up to a specified limit. This implementation leverages Rust’s concurrency capabilities to optimize the algorithm by distributing tasks across threads.
-```
-    Folder: sieve
-    Purpose: Prime number generation using a concurrent approach to the Sieve of Eratosthenes.
-```
+- sieve
+	- Purpose: Prime number generation using a concurrent approach to the Sieve of Eratosthenes.
+
 ### 2. Sockets
 
 The Sockets folder contains several TCP-based applications, including implementations of the master-worker pattern, a basic calculator, and a multi-client chat application.
